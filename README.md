@@ -5,3 +5,5 @@ Original SOPP Dataset (Nashville, TN): https://openpolicing.stanford.edu/data/
 Original Crash Datasets: https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/
 -> For each year between the decade (2009 - 2019), we merged annual datasets to one crash dataset which we compare with our original SOPP (stop dataset). 
 
+Nashville, TN Parcel Dataset: https://koordinates.com/layer/97210-nashville-tennessee-parcels/
+-> We filtered our SOPP dataset to include only coordinate points within the boundary provided from the parcel dataset, in order to verify that all points are actually in the city of Nashville.
