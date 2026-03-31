@@ -1,5 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/MFzEnxem)
 
+### Project Overview
+This project analyzes traffic crashes and police stops in Nashville, Tennessee to understand spatial and temporal patterns in traffic risk and enforcement. The focus is to evaluate whether police activity aligns with high-risk crash locations and peak time periods. The analysis combines geospatial techniques, exploratory data analysis, and logistic regression modeling to produce actionable insights for traffic safety planning.
+
 ### Original Datasets
 * **Original SOPP Dataset (Nashville, TN):** <https://openpolicing.stanford.edu/data/>
 * **Original Crash Datasets:** <https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/>
