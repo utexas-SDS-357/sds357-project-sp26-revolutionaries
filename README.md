@@ -11,6 +11,6 @@ Nashville, TN Parcel Dataset: https://koordinates.com/layer/97210-nashville-tenn
 
 Cleaned Datasets (For the purposes of the modeling) 
 "crash_df_3_8.csv": Reason for stop & K-Means Clustering Algorithms for zoning assignments
-"sopp_inflated.csv": Includes additional variables for the purposes of Logistic Regression modeling (time_segment, precinct) 
+"sopp_inflated.csv": A derived dataset from "sopp_df_3_8.csv" (Google Drive) Includes additional variables for the purposes of Logistic Regression modeling (time_segment, precinct) 
 
 All Necessary Datasets for the Data Cleaning Pipeline: https://drive.google.com/drive/folders/1xy11tw09H_1_WdMzF8wrdNhjIrVrgalV?usp=drive_link
