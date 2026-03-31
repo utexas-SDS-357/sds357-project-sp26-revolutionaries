@@ -12,5 +12,15 @@
 * `sopp_df_3_8.csv`: A derived dataset from `sopp_df.csv` that limits our data points to only 'moving traffic violation' and 'seatbelt violation' as the reasoning for stop. Also, there is a zoning assignment for each data point determined for the K-Means CLustering Algorithm applied. 
 * `sopp_inflated.csv`: A derived dataset from `sopp_df_3_8.csv` (Google Drive). Includes additional variables for the purposes of Logistic Regression modeling (time_segment, precinct).
 
+### Notebooks
+* `data_cleaning_pipeline.ipynb`: A notebook containing the data cleaning pipeline. Includes the merging of data from the crash datasets and the utiliation of the Nashville Parcel Dataset to find points actually in the city of Nashville.
+* `crash_heatmap.ipynb` - Crash density heatmap
+* `sopp_heatmap.ipynb` - Policing stop density heatmap
+* `prelim_temporal_EDA.ipynb` - Preliminary exploratory data analysis where we take a look at the distribution of crashes and police stops by data of the week and hour.
+* `Midterm_SOPP_LogisticReg.ipynb` - Logistic regression results performed on `sopp_inflated.csv`
+* `SOPP_LOGREG_Visualization.ipynb` - Logistic regression results performed on `sopp_inflated.csv` with included visualization of odds ratios.
+* `crash_model.ipynb` - Logistic regression results performed on `crash_df.csv`
+* `sopp_data_setup.ipynb` - Pipeline for creating `sopp_inflated.csv` from `sopp_df_3_8.csv`
+
 ### Data Cleaning Pipeline
 * **All Necessary Datasets:** [Google Drive Folder](https://drive.google.com/drive/folders/1xy11tw09H_1_WdMzF8wrdNhjIrVrgalV?usp=drive_link)
