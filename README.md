@@ -14,7 +14,7 @@
 * `sopp_inflated.csv`: A derived dataset from `sopp_df_3_8.csv` (Google Drive). Includes additional variables for the purposes of Logistic Regression modeling (time_segment, precinct).
 
 ### Notebooks
-* `data_cleaning_pipeline.ipynb`: A notebook containing the data cleaning pipeline. Includes the merging of data from the crash datasetsthe utilization of the Nashville Parcel Dataset to find points actually in the city of Nashville, and K-Means clustering assigning a zone. 
+* `data_cleaning_pipeline.ipynb`: A notebook containing the data cleaning pipeline. Includes the merging of data from the crash datasets, the utilization of the Nashville Parcel Dataset to find police stop points actually in the city of Nashville, and K-Means clustering assigning zones. 
 * `crash_heatmap.ipynb` - Crash density heatmap
 * `sopp_heatmap.ipynb` - Policing stop density heatmap
 * `prelim_temporal_EDA.ipynb` - Preliminary exploratory data analysis where we take a look at the distribution of crashes and police stops by data of the week and hour.
