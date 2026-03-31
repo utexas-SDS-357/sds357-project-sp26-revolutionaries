@@ -9,7 +9,7 @@
 
 ### Cleaned Datasets (For the purposes of modeling)
 * `crash_df_3_8.csv`: A merged dataset of all the accident files from 2009 - 2019 filtered to only include fatal crashes that occured in Nashville, TN. Also, there is a zoning assignment for each data point determined for the K-Means Clustering Algorithm applied.
-* `sopp_df_3_8.csv`: A derived dataset from "sopp_df.csv" that limits our data points to only 'moving traffic violation' and 'seatbelt violation' as the reasoning for stop. Also, there is a zoning assignment for each data point determined for the K-Means CLustering Algorithm applied. 
+* `sopp_df_3_8.csv`: A derived dataset from `sopp_df.csv` that limits our data points to only 'moving traffic violation' and 'seatbelt violation' as the reasoning for stop. Also, there is a zoning assignment for each data point determined for the K-Means CLustering Algorithm applied. 
 * `sopp_inflated.csv`: A derived dataset from `sopp_df_3_8.csv` (Google Drive). Includes additional variables for the purposes of Logistic Regression modeling (time_segment, precinct).
 
 ### Data Cleaning Pipeline
