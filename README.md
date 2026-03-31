@@ -8,4 +8,9 @@ Original Crash Datasets: https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/
 Nashville, TN Parcel Dataset: https://koordinates.com/layer/97210-nashville-tennessee-parcels/
 -> We filtered our SOPP dataset to include only coordinate points within the boundary provided from the parcel dataset, in order to verify that all points are actually in the city of Nashville.
 
+
+Cleaned Datasets (For the purposes of the modeling) 
+"crash_df_3_8.csv": Reason for stop & K-Means Clustering Algorithms for zoning assignments
+"sopp_inflated.csv": Includes additional variables for the purposes of Logistic Regression modeling (time_segment, precinct) 
+
 All Necessary Datasets for the Data Cleaning Pipeline: https://drive.google.com/drive/folders/1xy11tw09H_1_WdMzF8wrdNhjIrVrgalV?usp=drive_link
