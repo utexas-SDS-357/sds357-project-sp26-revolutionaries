@@ -23,7 +23,8 @@
 * `prelim_temporal_EDA.ipynb` - Preliminary exploratory data analysis where we take a look at the distribution of crashes and police stops by data of the week and hour.
 * `Midterm_SOPP_LogisticReg.ipynb` - Logistic regression results performed on `sopp_inflated.csv`
 * `SOPP_LOGREG_Visualization.ipynb` - Logistic regression results performed on `sopp_inflated.csv` with included visualization of odds ratios.
-* `crash_model.ipynb` - Data manipulation and logistic regression results performed on `crash_df.csv`
+* `crash_model.ipynb` - Logistic regression results performed on `crash_df.csv`
+* `crash_data_setup.ipynb` - Pipeline for creating `crash_inflated.csv` from `crash_df.csv`
 * `sopp_data_setup.ipynb` - Pipeline for creating `sopp_inflated.csv` from `sopp_df_3_8.csv`
 
 ### Data Cleaning Pipeline
