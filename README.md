@@ -3,6 +3,11 @@
 ### Project Overview
 This project analyzes traffic crashes and police stops in Nashville, Tennessee to understand spatial and temporal patterns in traffic risk and enforcement. The focus is to evaluate whether police activity aligns with high-risk crash locations and peak time periods. The analysis combines geospatial techniques, exploratory data analysis, and logistic regression modeling to produce actionable insights for traffic safety planning.
 
+### Steps for running the Streamlit Dashboard
+1. Open the `app.py` script and open a new terminal in VS Code
+2. Run `streamlit run app.py` in the VS Code terminal to present  plots/visualizations via Streamlit app dashboard 
+
+
 ### Original Datasets
 * **Original SOPP Dataset (Nashville, TN):** <https://openpolicing.stanford.edu/data/>
 * **Original Crash Datasets:** <https://www.nhtsa.gov/file-downloads?p=nhtsa/downloads/FARS/>
